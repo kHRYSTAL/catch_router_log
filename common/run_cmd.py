@@ -11,6 +11,8 @@
 # @file: run_cmd.py
 # @time: 17/4/5 上午10:20
 import os
+import telnetlib
+
 import paramiko
 import logging
 from cStringIO import StringIO

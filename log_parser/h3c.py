@@ -89,10 +89,6 @@ def h3c_log(str_buffer, log_path='.'):
                        when='m', interval=1, backupCount=56)
     log_f.write(json.dumps(rtn))
     log_f.close()
-
-
-
-
     pass
 
 if __name__ == '__main__':

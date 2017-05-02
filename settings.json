@@ -1,0 +1,36 @@
+{
+  "juniper": {
+    "username": "uname",
+    "password": "passwd",
+    "cmd": [
+      "show version|no-more",
+      "show chassis routing-engine | no-more",
+      "show system uptime |no-more"
+    ],
+    "host_list": [
+    ]
+  },
+  "h3c": {
+    "username": "uname",
+    "password": "passwd",
+    "cmd": [
+      "dis interface",
+      "dis transceiver diagnosis interface"
+    ],
+    "host_list": [
+
+    ]
+  },
+  "huawei": {
+    "username": "uname",
+    "password": "passwd",
+    "cmd": [
+      "screen-length 0 temporary",
+      "dis int XGigabitEthernet",
+      "display transceiver diagnosis interface"
+    ],
+    "host_list": [
+    ]
+  },
+  "log_path": "./logs/"
+}
